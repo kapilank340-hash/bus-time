@@ -18,7 +18,7 @@ function login() {
         let savedPass = localStorage.getItem("password");
     if(u === savedUser && p === savedPass){
             localStorage.setItem("login", "true");
-                    window.location.href = "home.html";
+                    window.location.href = "index.html";
                         } else {
                                 alert("Invalid Login!");
                                     }
